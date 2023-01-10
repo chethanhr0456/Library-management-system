@@ -1,0 +1,12 @@
+.userLogin{
+    background-image: url("/public/images/form.avif");
+    height: 100vh;
+    background-size: contain;
+}
+.form h2{
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 60px;
+    color: white;
+    margin-right: 320px;
+}

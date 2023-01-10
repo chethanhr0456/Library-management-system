@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+}
+.book_list {
+    /* border: 2px solid black; */
+    /* width: 1495px; */
+    height: 250px;
+    border-radius: 5px;
+    display: inline-table;
+    margin-left: 50px;
+    /* margin-bottom: 10px; */
+    text-align: start;
+    /* background-color: white; */
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+}
+
+.button_tag button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-items: center;
+    margin-right: 20px;
+   
+}
+.booklist_image img {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.booklist_image img:hover{
+    box-shadow: 6px 7px 10px white;
+    transform: translatey(-30px);
+    transition: 2s;
+}
+.booklist_information h1,h3,h2,h4{
+    margin: 0px;
+    text-align: start;
+    color: white;
+}
+
+.booklist_information{
+    /* margin-left: 10px; */
+    padding-left: 20px;
+}
+.content_text h1,h2{
+   margin: 0px;
+    text-align: start;
+    margin-left: 50px;
+    color: white;
+    
+
+    
+}
+.booklist_container{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0.1,0,0,0.9)), url("/public/images/form.avif");
+    
+}

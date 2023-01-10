@@ -1,0 +1,33 @@
+
+.addbooks{
+    /* background-color: gray; */
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/public/images/form.avif");
+    height: 100vh;
+    
+    
+}
+.book_forms input{
+    width: 450px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.book_forms textarea {
+    width: 450px;
+    height: 30px;
+}
+.book_forms{
+ margin-left: 35%;
+  
+}
+.book_forms label{
+color: white;
+font-size: 20px;
+}
+.addbooks_button button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    margin-left: 180px;
+    margin-top: 10px;
+}

@@ -1,0 +1,59 @@
+.adminLogin{
+    background-image: url("/public/images/form.avif");
+    height: 100vh;
+    background-size: contain;
+
+}
+.form{
+    border: 1px ;
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url("/public/images/adminbci.avif");
+    height: 50vh;
+    background-size: cover;
+
+}
+
+.form h1{
+    font-size: 40px;
+    margin: 0px;
+    /* margin-bottom: 60px; */
+    color: white;
+    margin-right: 290px;
+   
+}
+.form_input{
+    margin-right: 400px;
+    margin-top: 60px;
+
+}
+.email label{
+    color: white;
+    margin-right: 150px;
+    font-size: 19px;
+}
+.form_input input{
+    border-radius: 8px;
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    border: none;
+   outline: none;
+}
+.password label{
+    color:white;
+    margin-right: 120px;
+    font-size: 19px;
+}
+.form_input button{
+    border-radius: 10px;
+    border: none;
+    padding: 8px 20px;
+    background-color: black;
+    color: red;
+}
