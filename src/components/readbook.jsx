@@ -15,7 +15,7 @@ useEffect(()=>{
  return ( 
         <div className="readbook">
         <h1>{book.title}</h1>
-        <p>{book.shortDescription}</p>
+        <p>{book.shortDescription}</p> <br />
         <p>{book.longDescription}</p>
         </div>
      );

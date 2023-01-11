@@ -1,0 +1,40 @@
+.user_list{
+    border: 1px solid rgba(255, 247, 247, 0.138);
+    border-radius: 10px;
+    width: 480px;
+    height: 350px;
+    display: inline-table;
+    margin-left: 20px;
+    margin-bottom: 24px;
+    margin-top: 30px;
+    color: white;
+   
+}
+.userlist_tags h1{
+   margin: 0px 20px;
+   color: white;
+
+}
+.userlist_button button{
+    margin-left: 170px;
+    padding: 2px 20px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+}
+.userlist_container{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/public/images/form.avif");
+}
+.userlist_image img{
+    height: 70px;
+    border-radius: 40px;
+    position:relative;
+    left: 40%;
+    bottom: 35px;
+}
+.user_section h1{
+    margin: 0px;
+}

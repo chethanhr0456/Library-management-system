@@ -1,3 +1,37 @@
-body{
- 
+
+.adduser_form input{
+    width: 450px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    text-align: start;
+   
+    
+    
+    
+}
+.adduser_form{
+    margin-left: 35%;
+    /* background-color: white; */
+   
+}
+.addusers{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/public/images/form.avif");
+    height: 90.5vh;
+}
+.adduser_button button{
+    border: none;
+    background-color: cornflowerblue;
+    padding: 9px 25px;
+    border-radius: 5px;
+    color: white ;
+    margin-left: 155px;
+    margin-top: 10px;
+}
+.adduser_form label{
+    color: white;
+    font-size: 20px;
+    
 }
